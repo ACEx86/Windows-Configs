@@ -1,0 +1,2 @@
+Import Exploit Protection Settings
+Set-ProcessMitigation -PolicyFilePath "Full path of XML file"
