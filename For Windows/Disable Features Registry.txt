@@ -1,0 +1,9 @@
+﻿
+Disable mDNS:
+
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters
+create DWORD32 with name EnableMDNS and Decimal value 0
+
+Internal Hardcoded Configurations:
+
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\SIH\dns

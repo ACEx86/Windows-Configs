@@ -1,0 +1,13 @@
+﻿Windows Registry Editor Version 5.00
+
+; Created by: Acex86
+; Created on: Feb 5 2025
+
+;Disable Auto Shares Administrative Share
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters]
+"AutoShareWks"=dword:00000000
+"AutoShareServer"=dword:00000000
+
+;Disable mdns
+[Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters]
+"EnableMDNS"=dword:00000000
